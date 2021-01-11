@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>코로나 자동차</title>
+<style>
+.corona{
+position:absolute;
+top:518px;
+width: 160px;
+left:255px;
+animation: co 1s linear infinite
+
+}
+.corona2{
+position:absolute;
+top:518px;
+width: 160px;
+left:685px;
+animation: co2 1s linear infinite }
+@keyframes co {
+0%{transform:rotate(0)}
+100%{transform:rotate(-360deg)}
+}
+@keyframes co2 {
+0%{transform:rotate(0)}
+100%{transform:rotate(-360deg)}
+}
+
+
+</style>
+</head>
+<body>
+<img class = "corona"src= "코로나.png" >
+<img class = "corona2"src = "코로나.png">
+<img class = "car"src = "자동차.png">
+</body>
+</html>
